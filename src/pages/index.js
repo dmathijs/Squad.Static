@@ -97,7 +97,7 @@ const IndexPage = () => {
             </span>
           </h1>
           <h2 style={subHeadingStyles}>
-            Comming soon to android
+            An accountability partner app comming to android in may 2021.
           </h2>
           <form action="/thank-you" enctype="multipart/form-data" name="subscribe" method="POST" netlify-honeypot="bot-field" data-netlify="true" style={{width:"100%", boxSizing:"border-box"}}>
             <p>
