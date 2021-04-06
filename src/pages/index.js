@@ -99,7 +99,7 @@ const IndexPage = () => {
           <h2 style={subHeadingStyles}>
             Comming soon to android
           </h2>
-          <form action="/thank-you" name="subscribe" method="POST" netlify-honeypot="bot-field" data-netlify="true" style={{width:"100%", boxSizing:"border-box"}}>
+          <form action="/thank-you" enctype="multipart/form-data" name="subscribe" method="POST" netlify-honeypot="bot-field" data-netlify="true" style={{width:"100%", boxSizing:"border-box"}}>
             <p>
               <label style={{display:"flex", boxSizing:"border-box", justifyContent:"center"}}>
                 <input style={inputStyle} type="email" name="email" placeholder="Your email"/>
