@@ -111,7 +111,7 @@ const IndexPage = () => {
             </p>
           </form>
           <p style={{textAlign:"left", paddingTop:"100px"}}>
-          <b>All updates ✨</b>
+          <b>All updates <span style={{color:"#3B60E4", fontSize:"12px"}}>#BUILDINPUBLIC</span> ✨</b>
           {
             updates.map(item => 
               <div>
