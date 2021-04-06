@@ -3,7 +3,7 @@ module.exports = {
     title: "Squad - Take control of your life",
     description: "Squad landing page",
     author: "Diederik Mathijs",
-    siteUrl: "getsquad.org"
+    siteUrl: `https://www.getsquad.org`
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
