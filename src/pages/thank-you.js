@@ -84,51 +84,22 @@ const HorizontalLine = styled.div`
 
 
 // markup
-const IndexPage = () => {
+const ThankYouPage = () => {
   return (
     <main style={pageStyles}>
       <title>Welcome to Squad</title>
       <div style={titleContainerStyles}>
         <div style={titleWrapperStyles}>
           <h1 style={headingStyles}>
-            <span >Take control of your life together with like-minded people! </span>
+            <span style={{fontSize:"14px"}}>We received your email! 🎉 </span><br></br>
+            <span>We'll notify you once we're live! </span>
             <span role="img" aria-label="Party popper emojis">
-              ✊
             </span>
           </h1>
-          <h2 style={subHeadingStyles}>
-            Comming soon to android
-          </h2>
-          <form action="/thank-you" name="subscribe" method="POST" netlify-honeypot="bot-field" data-netlify="true" style={{width:"100%", boxSizing:"border-box"}}>
-            <p>
-              <label style={{display:"flex", boxSizing:"border-box", justifyContent:"center"}}>
-                <input style={inputStyle} type="email" name="email" placeholder="Your email"/>
-                <SubmitButton type="submit">Invite me</SubmitButton>
-             </label>
-             <p style={{display:"none"}}style={{display:"none"}}>
-              <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-              </p>
-            </p>
-          </form>
-          <p style={{textAlign:"left", paddingTop:"100px"}}>
-          <b>All updates ✨</b>
-          {
-            updates.map(item => 
-              <div>
-              <div style={{fontSize:"14px",paddingTop:"20px", paddingBottom:"5px"}}>{item.date}</div>
-              <HorizontalLine/>
-              <ul>
-                {
-                  item.updates.map(update => <li style={{paddingBottom:"5px"}}>{update}</li>)
-                }
-              </ul>
-            </div>)
-          }
-          </p>
           </div>
         </div>
     </main>
   )
 }
 
-export default IndexPage
+export default ThankYouPage 
