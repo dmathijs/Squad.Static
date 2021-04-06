@@ -103,6 +103,7 @@ const IndexPage = () => {
             <p>
               <label style={{display:"flex", boxSizing:"border-box", justifyContent:"center"}}>
                 <input style={inputStyle} type="email" name="email" placeholder="Your email"/>
+                <input type="hidden" name="form-name" value="subscribe" />
                 <SubmitButton type="submit">Invite me</SubmitButton>
              </label>
              <p style={{display:"none"}}style={{display:"none"}}>
