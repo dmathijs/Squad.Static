@@ -12,7 +12,8 @@ const headingStyles = {
   position:"relative"
 }
 const subHeadingStyles = {
-  padding:"10px 0px 30px 0px"
+  padding:"10px 0px 30px 0px",
+  fontSize:"18px"
 }
 
 const titleContainerStyles = {
