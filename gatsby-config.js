@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Squad static site",
+    title: "Squad - Take control of your life",
+    description: "Squad landing page",
+    author: "Diederik Mathijs",
+    siteUrl: "getsquad.org"
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
